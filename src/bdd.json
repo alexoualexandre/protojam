@@ -1,12 +1,13 @@
 [
     
       {
-        "nom": "Mont Rainier",
+        "nom": "Mont-Rainier",
         "continent": "Amérique",
         "pays": "États-Unis",
         "distance": "15 km",
         "durée_heures": 6,
-        "niveau_difficulte": 4
+        "niveau_difficulte": 4,
+        "img":"Mount-Rainier.png"
       },
       {
         "nom": "Grand Canyon",
@@ -14,7 +15,8 @@
         "pays": "États-Unis",
         "distance": "20 km",
         "durée_heures": 8,
-        "niveau_difficulte": 3
+        "niveau_difficulte": 3,
+        "img":"canyon.png"
       },
       {
         "nom": "Inca Trail",
@@ -22,7 +24,8 @@
         "pays": "Pérou",
         "distance": "42 km",
         "durée_heures": 12,
-        "niveau_difficulte": 5
+        "niveau_difficulte": 5,
+        "img":"perou.png"
       },
       {
         "nom": "Torres del Paine",
@@ -30,7 +33,17 @@
         "pays": "Chili",
         "distance": "71 km",
         "durée_heures": 24,
-        "niveau_difficulte": 5
+        "niveau_difficulte": 1,
+        "img":"Torres-del-Paine.png"
+      },
+      {
+        "nom": "Petrópolis",
+        "continent": "Amérique",
+        "pays": "Bresil",
+        "distance": "140 km",
+        "durée_heures": "3j",
+        "niveau_difficulte": 5,
+        "img":"bresil.png"
       },
       {
         "nom": "Mont Everest",

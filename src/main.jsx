@@ -21,7 +21,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/amerique",
-        element: <><Amerique /></>
+        element: (
+          <>
+            <Amerique />
+          </>
+        ),
       },
       {
         path: "/europe",
@@ -38,7 +42,6 @@ const router = createBrowserRouter([
       {
         path: "/contact",
       },
-      
     ],
   },
 ]);
