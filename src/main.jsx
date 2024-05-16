@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Accueil from "./Accueil.jsx";
 import Description2 from "./Description2.jsx";
+import Amerique from "./amerique.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/amerique",
+        element: <><Amerique /></>
       },
       {
         path: "/europe",
@@ -29,6 +31,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/asie",
+      },
+      {
+        path: "/apropos",
+      },
+      {
+        path: "/contact",
       },
       
     ],

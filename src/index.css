@@ -3,7 +3,9 @@
   --randox-color: #ff8434;
   --section-background: #d9d9d9;
   --section-bloc-bachground: #efeded;
-  --bouton-destination: #424340;
+  --bouton-destination:#424340;
+  --footer: #5E5D5D;
+
 }
 .nanum-brush-script {
   font-family: "Nanum Brush Script", cursive;
@@ -84,12 +86,12 @@ body {
 }
 
 /**HEADER**/
-.destination {
+
+.destination{
   display: none;
 }
-
-.iconeDisplay {
-  display: none;
+.iconeDisplay{
+    display: none;
 }
 /**HEADER FIN**/
 
@@ -140,6 +142,48 @@ body {
   font-size: 2em;
   font-weight: bolder;
 }
+
+/* alexandre a ajouter le footer */
+
+footer {
+  width: 100%;
+  position: relative;
+ 
+  background-color: var(--footer);
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+footer ul li {
+  color: white;
+  font-family: arial;
+}
+
+#logo-footer {
+ position: relative;
+ text-align: center;
+ margin-left: 1em;
+  color: var(--randox-color);
+  text-shadow: 3px 3px 3px black;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 3em; 
+}
+
+.reseau {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+/* fin de l'ajout du footer */
 
 @media screen and (min-width: 768px) {
   .header {
@@ -260,4 +304,15 @@ body {
   }
 
   /**CARD FIN **/
+
+}
+ /******FIN HEADER*****/
+
+ /* footer ajouter */
+
+ #logo-footer {
+  margin-left: 0em;
+   
+ }
+
 }
