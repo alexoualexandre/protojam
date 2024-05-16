@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
 
-
+#root{
+    --randox-color:#ff8434 ;
+    --section-background:#D9D9D9;
+    --section-bloc-bachground:#EFEDED;
+}
 .nanum-brush-script {
     font-family: "Nanum Brush Script", cursive;
     font-weight: 400;
@@ -39,4 +43,7 @@
     text-shadow: 3px 3px 3px black;
     font-family: "Nanum Brush Script", cursive;
     font-size: 3em;
+}
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
