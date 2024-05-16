@@ -1,9 +1,14 @@
+import { MyContext } from "./context";
+import Menuburger from "./menuberger";
+
 function Header() {
+  const {open,setOpen} = MyContext();
   return (
     <>
       <header className="header">
-        <p className="icon-menu">&#9776;</p>
+        <button className="icon-menu" onClick={()=>setOpen(!open)}>&#9776;</button>
         <h1 className="marque">Randox</h1>
+        
         <div className="destination">
       <button className="btnDest">Amérique
       <img  className="iconeDisplay" src="../public/images/indiens.png" alt="les indiens d'amérique"/>
@@ -14,8 +19,12 @@ function Header() {
       <button className="btnDest">Europe</button>
     </div>
       </header>
-    </>
+<Menuburger />
+
+</>
   );
 }
 
 export default Header;
+
+    

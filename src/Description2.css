@@ -6,7 +6,7 @@
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 3em;
 }
 .blocDescription{
     background-color:var(--section-bloc-bachground);
