@@ -85,64 +85,62 @@ body {
   width: 100%;
 }
 
-
 /**HEADER**/
+
 .destination{
   display: none;
 }
-
 .iconeDisplay{
     display: none;
-
 }
 /**HEADER FIN**/
 
 .menuburger {
-    width: 60%;
-    height: 25em;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    opacity: 0.7;
-    animation-name: open;
-    animation-duration: 1s;
+  width: 60%;
+  height: 25em;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  opacity: 0.7;
+  animation-name: open;
+  animation-duration: 1s;
 }
 
 @keyframes open {
-    from{
-        width: 0%;
-    }to{
-        width: 60%;
-    }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
 }
 
 .menuburger ul {
-    white-space: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-
+  white-space: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
 
 .menuburger li {
-    color: white;
-    padding: 2em;
-    text-decoration: none;
+  color: white;
+  padding: 2em;
+  text-decoration: none;
 }
 
 .fermeture {
-    color: white;
-    position: absolute;
-    background-color: transparent;
-    border: none;
-    right: 0;
-    top: 0;
-    font-size: 2em;
-    font-weight: bolder;
+  color: white;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  right: 0;
+  top: 0;
+  font-size: 2em;
+  font-weight: bolder;
 }
 
 /* alexandre a ajouter le footer */
@@ -195,7 +193,7 @@ footer ul li {
     position: relative;
     background-image: url("./src/image/header - Copie.jfif");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column-reverse;
@@ -205,7 +203,6 @@ footer ul li {
     position: relative;
     background-image: url("./src/image/header - Copie.jfif");
     background-size: 100%;
-
   }
 
   .icon-menu {
@@ -245,35 +242,68 @@ footer ul li {
   }
 
   /***** HEADER ********/
-.destination{
+  .destination {
     display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  align-items: flex-end; 
-  
- }
- .btnDest{
-     background-color: var(--bouton-destination);
-     cursor: pointer;
-     border: none;
-     border-radius: 25px;
-     width: 12%;
-     color: white;
-     font-weight: bolder;
-     padding: 0.2rem;
-     
- }
- .iconeDisplay:hover{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .btnDest {
+    background-color: var(--bouton-destination);
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    width: 12%;
+    color: white;
+    font-weight: bolder;
+    padding: 0.2rem;
+  }
+  .btn {
+    width: 100%;
+    background-color: var(--bouton-destination);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .iconeDisplay:hover {
     display: block;
-
-}
- .btnDest:hover{
+  }
+  .btnDest:hover {
     transition: transform 0.3s ease;
     transform: scale(1.2);
-
- }
- .iconeDisplay{
+  }
+  .iconeDisplay {
     display: none;
+  }
+  /******FIN HEADER*****/
+
+  /**CARD**/
+  .card {
+    width: 30%;
+    padding: 2rem;
+    background-color: var(--bouton-destination);
+    border-radius: 25px;
+    margin: 1rem;
+
+  }
+  .villeWord{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.4rem;
+    color: var(--randox-color);
+  }
+  .imgCard {
+    width: 100%;
+    border-radius: 50px;
+  }
+  .cardDesc{
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  /**CARD FIN **/
 
 }
  /******FIN HEADER*****/
@@ -284,4 +314,5 @@ footer ul li {
   margin-left: 0em;
    
  }
+
 }
