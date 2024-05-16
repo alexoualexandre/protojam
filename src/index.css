@@ -3,6 +3,8 @@
   --randox-color: #ff8434;
   --section-background: #d9d9d9;
   --section-bloc-bachground: #efeded;
+  --bouton-destination:#424340;
+
 }
 .nanum-brush-script {
   font-family: "Nanum Brush Script", cursive;
@@ -82,6 +84,16 @@ body {
   width: 100%;
 }
 
+
+/**HEADER**/
+
+
+.iconeDisplay{
+    display: none;
+
+}
+/**HEADER FIN**/
+
 .menuburger {
     width: 60%;
     height: 25em;
@@ -133,11 +145,22 @@ body {
 @media screen and (min-width: 768px) {
   .header {
     width: 100%;
+
+    background-color: grey;
+    position: relative;
+    background-image: url("./src/image/header - Copie.jfif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 1rem;
     height: 10em;
     background-color: grey;
     position: relative;
     background-image: url("./src/image/header - Copie.jfif");
     background-size: 100%;
+
   }
 
   .icon-menu {
@@ -175,4 +198,38 @@ body {
   .video {
     width: 100%;
   }
+
+  /***** HEADER ********/
+.destination{
+    display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: flex-end; 
+  
+ }
+ .btnDest{
+     background-color: var(--bouton-destination);
+     cursor: pointer;
+     border: none;
+     border-radius: 25px;
+     width: 12%;
+     color: white;
+     font-weight: bolder;
+     padding: 0.2rem;
+     
+ }
+ .iconeDisplay:hover{
+    display: block;
+
+}
+ .btnDest:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+
+ }
+ .iconeDisplay{
+    display: none;
+
+}
+ /******FIN HEADER*****/
 }
