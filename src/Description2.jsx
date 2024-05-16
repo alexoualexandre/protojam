@@ -5,9 +5,10 @@ function Description2() {
   return (
     <>
       <section className="containerDescription">
-      <h3 className="titleDes2">Pourquoi <span class="colored-word">RANDOX</span></h3>
+      
         <div className="blocDescription">
-          
+        <h3 className="titleDes2">Pourquoi <span class="colored-word">RANDOX</span></h3>
+        <div className="texteImg">
           <p className="pdesc2">
             Voyager avec Randox vous offre une expérience de randonnée
             exceptionnelle. Avec une sélection diversifiée d'itinéraires, des
@@ -19,6 +20,7 @@ function Description2() {
             alt="photo panaoramique dun randonné au norvege"
             className="img-des2"
           />
+          </div>
         </div>
       </section>
     </>
