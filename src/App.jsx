@@ -1,15 +1,16 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
-import Description2 from "./Description2";
+import { Allcontext } from "./context";
 
 function App() {
-  
-
   return (
     <>
-      <Description2/> 
+      <Allcontext>
+        <Header />
+        <Outlet />
+      </Allcontext>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -6,6 +6,7 @@
     padding: 1rem;
     justify-content: center;
     align-items: center;
+    margin-top: 3em;
 }
 .blocDescription{
     background-color:var(--section-bloc-bachground);
@@ -46,6 +47,7 @@ cursor: pointer;
     }
     .pdesc2{
         width: 40%;
+        font-size: 1.2em;
 
     }
     .titleDes2{
