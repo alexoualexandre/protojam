@@ -3,9 +3,8 @@
   --randox-color: #ff8434;
   --section-background: #d9d9d9;
   --section-bloc-bachground: #efeded;
-  --bouton-destination:#424340;
-  --footer: #5E5D5D;
-
+  --bouton-destination: #424340;
+  --footer: #5e5d5d;
 }
 .nanum-brush-script {
   font-family: "Nanum Brush Script", cursive;
@@ -87,11 +86,11 @@ body {
 
 /**HEADER**/
 
-.destination{
+.destination {
   display: none;
 }
-.iconeDisplay{
-    display: none;
+.iconeDisplay {
+  display: none;
 }
 /**HEADER FIN**/
 
@@ -148,7 +147,7 @@ body {
 footer {
   width: 100%;
   position: relative;
- 
+
   background-color: var(--footer);
 }
 
@@ -167,13 +166,13 @@ footer ul li {
 }
 
 #logo-footer {
- position: relative;
- text-align: center;
- margin-left: 1em;
+  position: relative;
+  text-align: center;
+  margin-left: 1em;
   color: var(--randox-color);
   text-shadow: 3px 3px 3px black;
   font-family: "Nanum Brush Script", cursive;
-  font-size: 3em; 
+  font-size: 3em;
 }
 
 .reseau {
@@ -285,9 +284,8 @@ footer ul li {
     background-color: var(--bouton-destination);
     border-radius: 25px;
     margin: 1rem;
-
   }
-  .villeWord{
+  .villeWord {
     display: flex;
     justify-content: center;
     padding-bottom: 0.4rem;
@@ -297,7 +295,7 @@ footer ul li {
     width: 100%;
     border-radius: 50px;
   }
-  .cardDesc{
+  .cardDesc {
     padding: 0.5rem;
     color: white;
     font-weight: bold;
@@ -305,11 +303,13 @@ footer ul li {
 
   /**CARD FIN **/
 
- /* footer ajouter */
 
- #logo-footer {
-  margin-left: 0em;
-   
- }
+  /******FIN HEADER*****/
 
+
+  /* footer ajouter */
+
+  #logo-footer {
+    margin-left: 0em;
+  }
 }

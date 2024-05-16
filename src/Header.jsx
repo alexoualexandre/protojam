@@ -14,70 +14,69 @@ function Header() {
         <h1 className="marque">Randox</h1>
 
         <div className="destination">
-      <div className="btnDest">
-          <Link to="/afrique" >
-            <button className="btn" >
-              Afrique
-              <img
-                className="iconeDisplay"
-                src="../public/images/indiens.png"
-                alt="les indiens d'amérique"
-              />
-            </button>
-          </Link>
+          <div className="btnDest">
+            <Link to="/afrique">
+              <button className="btn">
+                Afrique
+                <img
+                  className="iconeDisplay"
+                  src="../public/images/indiens.png"
+                  alt="les indiens d'amérique"
+                />
+              </button>
+            </Link>
           </div>
           <div className="btnDest">
-          <Link to="/amerique" >
-            <button className="btn">
-              Amérique
-              <img
-                className="iconeDisplay"
-                src="../public/images/indiens.png"
-                alt="les indiens d'amérique"
-              />
-            </button>
-          </Link>
+            <Link to="/amerique">
+              <button className="btn">
+                Amérique
+                <img
+                  className="iconeDisplay"
+                  src="../public/images/indiens.png"
+                  alt="les indiens d'amérique"
+                />
+              </button>
+            </Link>
           </div>
           <div className="btnDest">
-          <Link to="/asie" >
-            <button className="btn">
-              Asie
-              <img
-                className="iconeDisplay"
-                src="../public/images/indiens.png"
-                alt="les indiens d'amérique"
-              />
-            </button>
-          </Link>
+            <Link to="/asie">
+              <button className="btn">
+                Asie
+                <img
+                  className="iconeDisplay"
+                  src="../public/images/indiens.png"
+                  alt="les indiens d'amérique"
+                />
+              </button>
+            </Link>
           </div>
           <div className="btnDest">
-          <Link to="/australie" >
-            <button className="btn">
-              Australie
-              <img
-                className="iconeDisplay"
-                src="../public/images/indiens.png"
-                alt="les indiens d'amérique"
-              />
-            </button>
-          </Link>
+            <Link to="/australie">
+              <button className="btn">
+                Australie
+                <img
+                  className="iconeDisplay"
+                  src="../public/images/indiens.png"
+                  alt="les indiens d'amérique"
+                />
+              </button>
+            </Link>
           </div>
           <div className="btnDest">
-          <Link to="/europe" > 
-            <button className="btn">
-              Europe
-              <img
-                className="iconeDisplay"
-                src="../public/images/indiens.png"
-                alt="les indiens d'amérique"
-              />
-            </button>
-          </Link>
+            <Link to="/europe">
+              <button className="btn">
+                Europe
+                <img
+                  className="iconeDisplay"
+                  src="../public/images/indiens.png"
+                  alt="les indiens d'amérique"
+                />
+              </button>
+            </Link>
           </div>
         </div>
       </header>
       <Menuburger />
-      <Card/>
     </>
   );
 }
