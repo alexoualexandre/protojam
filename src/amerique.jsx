@@ -27,5 +27,3 @@ function Amerique() {
 }
 
 export default Amerique;
-
-// fin page amerique //////////////
