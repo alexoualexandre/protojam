@@ -9,7 +9,8 @@ export default function Afrique() {
   return (
     <>
     <div className="cont-card">
-    {filtreAfrique.map((titi)=> (
+    {filtreAfrique.map((titi,index)=> (
+      
         <Card
         continent={titi.continent}
         pays={titi.pays}
@@ -17,7 +18,9 @@ export default function Afrique() {
         durée_heures={titi.durée_heures}
         niveau_difficulte={titi.niveau_difficulte}
         nom={titi.nom}
-        img={titi.img}/>
+        img={titi.img}
+        index={index} />
+        
     ))}
     </div>
     <footer>

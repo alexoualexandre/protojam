@@ -18,6 +18,7 @@ export default function Asie() {
           niveau_difficulte={toto.niveau_difficulte}
           nom={toto.nom}
           img={toto.img}
+          index={toto.id}
         />
       ))}
       </div>

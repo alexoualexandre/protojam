@@ -21,7 +21,7 @@ function Header() {
                 Afrique
                 <img
                   className="iconeDisplay"
-                  src="../public/images/indiens.png"
+                  src="/public/images/indiens.png"
                   alt="les indiens d'amérique"
                 />
               </button>
@@ -33,7 +33,7 @@ function Header() {
                 Amérique
                 <img
                   className="iconeDisplay"
-                  src="../public/images/indiens.png"
+                  src="/public/images/indiens.png"
                   alt="les indiens d'amérique"
                 />
               </button>
@@ -45,24 +45,13 @@ function Header() {
                 Asie
                 <img
                   className="iconeDisplay"
-                  src="../public/images/indiens.png"
+                  src="/public/images/indiens.png"
                   alt="les indiens d'amérique"
                 />
               </button>
             </Link>
           </div>
-          <div className="btnDest">
-            <Link to="/australie">
-              <button className="btn">
-                Australie
-                <img
-                  className="iconeDisplay"
-                  src="../public/images/indiens.png"
-                  alt="les indiens d'amérique"
-                />
-              </button>
-            </Link>
-          </div>
+          
           <div className="btnDest">
             <Link to="/europe">
               <button className="btn">

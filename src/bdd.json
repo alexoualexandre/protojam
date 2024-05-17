@@ -6,7 +6,8 @@
     "distance": "15 km",
     "durée_heures": 6,
     "niveau_difficulte": 4,
-    "img":"Mount-Rainier.png"
+    "img":"Mount-Rainier.png",
+    "id":0
   },
   {
     "nom": "Grand Canyon",
@@ -15,7 +16,8 @@
     "distance": "20 km",
     "durée_heures": 8,
     "niveau_difficulte": 3,
-    "img":"canyon.png"
+    "img":"canyon.png",
+    "id":1
   },
   {
     "nom": "Inca Trail",
@@ -24,7 +26,8 @@
     "distance": "42 km",
     "durée_heures": 12,
     "niveau_difficulte": 5,
-    "img":"perou.png"
+    "img":"perou.png",
+    "id":2
   },
   {
     "nom": "Torres del Paine",
@@ -33,7 +36,8 @@
     "distance": "71 km",
     "durée_heures": 24,
     "niveau_difficulte": 1,
-    "img":"Torres-del-Paine.png"
+    "img":"Torres-del-Paine.png",
+    "id":3
   },
   {
     "nom": "Petrópolis",
@@ -42,7 +46,8 @@
     "distance": "140 km",
     "durée_heures": "3j",
     "niveau_difficulte": 5,
-    "img":"bresil.png"
+    "img":"bresil.png",
+    "id":4
   },
   {
     "nom": "Mont Everest",
@@ -51,7 +56,8 @@
     "distance": "70 km",
     "durée_heures": 48,
     "niveau_difficulte": 5,
-    "img":"Mont-Everest.png"
+    "img":"Mont-Everest.png",
+    "id":0
   },
   {
     "nom": "Bali ",
@@ -60,7 +66,8 @@
     "distance": "70 km",
     "durée_heures": 48,
     "niveau_difficulte": 5,
-    "img":"Bali.png"
+    "img":"Bali.png",
+    "id":1
   },
   {
     "nom": "la balaguere turquie",
@@ -69,7 +76,8 @@
     "distance": "70 km",
     "durée_heures": 48,
     "niveau_difficulte": 5,
-    "img":"la-balaguere-turquie.png"
+    "img":"la-balaguere-turquie.png",
+    "id":2
   },
   {
     "nom": "Annapurna Circuit",
@@ -78,7 +86,8 @@
     "distance": "128 km",
     "durée_heures": 72,
     "niveau_difficulte": 5,
-    "img":"Annapurna.png"
+    "img":"Annapurna.png",
+    "id":3
   },
   {
     "nom": "Great Wall of China",
@@ -87,7 +96,8 @@
     "distance": "21,196 km",
     "durée_heures": 1200,
     "niveau_difficulte": 4,
-    "img":"Great-Wall-of-China.png"
+    "img":"Great-Wall-of-China.png",
+    "id":4
   },
   {
     "nom": "Mont Kilimandjaro",
@@ -96,7 +106,8 @@
     "distance": "64 km",
     "durée_heures": 48,
     "niveau_difficulte": 5,
-    "img":"Mont-Kilimandjaro.png"
+    "img":"Mont-Kilimandjaro.png",
+    "id":0
   },
   {
     "nom": "Mont Kenya",
@@ -105,7 +116,8 @@
     "distance": "50 km",
     "durée_heures": 36,
     "niveau_difficulte": 4 ,
-    "img":"Mont-kenya.png"
+    "img":"Mont-kenya.png",
+    "id":1
   },
   {
     "nom": "Parc National Kruger",
@@ -114,7 +126,8 @@
     "distance": "75 km",
     "durée_heures": 24,
     "niveau_difficulte": 3,
-    "img":"Parc-National-Kruger.png"
+    "img":"Parc-National-Kruger.png",
+    "id":2
   },
   {
     "nom": "Tassili N'Ajjer",
@@ -123,7 +136,8 @@
     "distance": "1024 km",
     "durée_heures":120,
     "niveau_difficulte": 2,
-    "img":"Tassili-N'Ajjer.png"
+    "img":"Tassili-N'Ajjer.png",
+    "id":3
   },
   {
     "nom": "Mapanja ",
@@ -132,7 +146,8 @@
     "distance": "16.5 km",
     "durée_heures":8 ,
     "niveau_difficulte": 4,
-    "img":"Mapanja.png"
+    "img":"Mapanja.png",
+    "id":4
   },
   {
     "nom": "Alpes suisses",
@@ -141,7 +156,8 @@
     "distance": "100 km",
     "durée_heures": 60,
     "niveau_difficulte": 4,
-    "img":"Alpes-suisses.png"
+    "img":"Alpes-suisses.png",
+    "id":0
   },
   {
     "nom": "Sentier des Cinque Terre",
@@ -150,7 +166,8 @@
     "distance": "12 km",
     "durée_heures": 6,
     "niveau_difficulte": 2,
-    "img":"Sentier-des-Cinque-Terre.png"
+    "img":"Sentier-des-Cinque-Terre.png",
+    "id":1
   },
   {
     "nom": "Mont Elbrouz",
@@ -159,7 +176,8 @@
     "distance": "22 km",
     "durée_heures": 12,
     "niveau_difficulte": 4,
-    "img":"Mont-Elbrouz.png"
+    "img":"Mont-Elbrouz.png",
+    "id":2
   },
   {
     "nom": "Chamonix Mont Blanc",
@@ -168,7 +186,8 @@
     "distance": "12 km",
     "durée_heures": 6,
     "niveau_difficulte": 2,
-    "img":"Sentier-des-Cinque-Terre.png"
+    "img":"Sentier-des-Cinque-Terre.png",
+    "id":3
   },
   {
     "nom": "Preikestolen ",
@@ -177,7 +196,8 @@
     "distance": "10 km",
     "durée_heures": 5,
     "niveau_difficulte": 3,
-    "img":"Preikestolen.png"
+    "img":"Preikestolen.png",
+    "id":4
   }
 
 ]
