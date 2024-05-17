@@ -11,6 +11,7 @@ import Asie from "./Asie.jsx";
 import Europe from "./Europe.jsx";
 import DescriptionComplete from "./DescriptionComplete.jsx";
 import Apropos from "./Apropos.jsx";
+import { ContactUs } from "./Contact.jsx";
 
 
 const router = createBrowserRouter([
@@ -67,7 +68,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-
+        element:(
+          <>
+          <ContactUs/>
+          </>
+        )
       },
       {
         path: "/description/:continent/:id",

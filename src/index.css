@@ -397,6 +397,57 @@ footer ul li {
     background-position: cover;
     
   }
+  /**** A PROPOS****/
+
+
+  /**FORM**/
+.form{
+  background-color: white;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 25px;
+  align-items: center;
+}
+.champ{
+ width: 80%;
+}
+.champMsg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.sectionContact{
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.contact{
+  padding: 2rem;
+}
+.btnSend{
+  margin: 0.9rem;
+  width: 20%;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bolder;
+  background-color: #317AC1;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.btnSend:hover{
+  transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+
+  
   .bouton-home {
     width: 4em;
     height: 4em;
@@ -436,5 +487,6 @@ footer ul li {
     position: relative;
     left: 15%;
   }
+
 
 }
