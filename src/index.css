@@ -19,7 +19,7 @@
 body {
   background-color: #d9d9d9;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", Impact,
-    Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .header {
@@ -296,20 +296,20 @@ footer ul li {
     align-items: flex-end;
   }
   .btnDest {
-    background-color: var(--bouton-destination);
+    background-color: var(--randox-color);
     cursor: pointer;
     border: none;
-    border-radius: 25px;
-    width: 12%;
+    border-radius:25px;
+    width: 8%;
     color: white;
     font-weight: bolder;
-    padding: 0.2rem;
+    padding: 0.5rem;
   }
   .btn {
     width: 100%;
-    background-color: var(--bouton-destination);
+    background-color: var(--randox-color);
     border: none;
-    color: white;
+    color: black;
     font-weight: bolder;
     cursor: pointer;
   }
@@ -368,4 +368,29 @@ footer ul li {
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  /**** A PROPOS****/
+  
+  .bloc{
+    border: none;
+    border-radius: 25px;
+    margin: 2rem;
+      padding: 2rem;
+      width: 40%;
+      color: black;
+      font-weight: bolder;
+      background-color: white;
+  }
+  .apropos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../public/images/Backgrounde/pexels-toulouse-3297271.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    
+  }
+  /**** A PROPOS****/
 }
