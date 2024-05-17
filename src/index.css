@@ -29,6 +29,9 @@ body {
   position: relative;
   background-image: url("./src/image/header.jfif");
   background-size: 100%;
+  border-top: 0.5em solid grey;
+  border-bottom: 0.5em solid grey;
+
 }
 
 /* .img-header {
@@ -213,6 +216,10 @@ footer ul li {
   flex-wrap: wrap;
 }
 
+.bouton-home {
+  display: none;
+}
+
 /* fin de l'ajout du footer */
 
 @media screen and (min-width: 768px) {
@@ -348,5 +355,22 @@ footer ul li {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .bouton-home {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background-color: var(--randox-color);
+    border-radius: 50%;
+    display: block;
+  }
+
+  .bouton-home:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+    cursor: pointer;
   }
 }
