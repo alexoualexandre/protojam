@@ -29,6 +29,9 @@ body {
   position: relative;
   background-image: url("./src/image/header.jfif");
   background-size: 100%;
+  border-top: 0.5em solid grey;
+  border-bottom: 0.5em solid grey;
+
 }
 
 /* .img-header {
@@ -182,11 +185,6 @@ footer ul li {
   margin-top: 1em;
 }
 
-
-
-
-
-
 .card {
   width: 70%;
   padding: 2rem;
@@ -218,17 +216,26 @@ footer ul li {
   flex-wrap: wrap;
 }
 
+.bouton-home {
+  display: none;
+}
 
+.cardcomplet {
+  width: 60%;
+  padding: 2rem;
+  background-color: var(--bouton-destination);
+  border-radius: 25px;
+  margin: 1rem;
+  left: 5%;
+  position: relative;
+}
 
-
-
-
-
-
-
-
-
-
+.imgCardComplet {
+  width: 100%;
+  border-radius: 50px;
+  position: relative;
+  left: 0%;
+}
 
 /* fin de l'ajout du footer */
 
@@ -351,9 +358,7 @@ footer ul li {
 
   /**CARD FIN **/
 
-
   /******FIN HEADER*****/
-
 
   /* footer ajouter */
 
@@ -442,5 +447,46 @@ footer ul li {
     transform: scale(1.2);
 }
 
-  /**FIN FORM**/
+  
+  .bouton-home {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background-color: var(--randox-color);
+    border-radius: 50%;
+    display: block;
+  }
+
+  .bouton-home:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  
+  
+  
+  
+  
+  
+  .cardcomplet {
+    width: 60%;
+    padding: 2rem;
+    background-color: var(--bouton-destination);
+    border-radius: 25px;
+    margin: 1rem;
+    left: 20%;
+    position: relative;
+  }
+
+  .imgCardComplet {
+    width: 70%;
+    border-radius: 50px;
+    position: relative;
+    left: 15%;
+  }
+
+
 }

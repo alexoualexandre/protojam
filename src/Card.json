@@ -1,0 +1,184 @@
+{
+  "destinations": [
+    {
+      "nom": "parc-national-bryce-canyon-queens",
+      "continent": "Amérique",
+      "pays": "États-Unis",
+      "distance": "15 km",
+      "durée_heures": "6",
+      "niveau_difficulte": "4",
+      "img": "./src/images/photos states/parc-national-bryce-canyon-queens-garden-web.webp"
+    },
+    {
+      "nom": "parc-national-canyonlands",
+      "continent": "Amérique",
+      "pays": "États-Unis",
+      "distance": "20 km",
+      "durée_heures": "8",
+      "niveau_difficulte": "3",
+      "img": "./src/images/photos states/parc-national-canyonlands-mesa-arch-web.webp"
+    },
+    {
+      "nom": "half-dome",
+      "continent": "Amérique",
+      "pays": "Pérou",
+      "distance": "42 km",
+      "durée_heures": "12",
+      "niveau_difficulte": "5",
+      "img": "./src/images/photos states/top-10-randonnees-ouest-americain-half-dome.webp"
+    },
+    {
+      "nom": "the narrows",
+      "continent": "Amérique",
+      "pays": "Chili",
+      "distance": "71 km",
+      "durée_heures": "24",
+      "niveau_difficulte": "5",
+      "img": "./src/images/photos states/top-10-randonnees-ouest-americain-the-narrows.webp"
+    },
+    {
+      "nom": "yosemite",
+      "continent": "Amérique",
+      "pays": "Chili",
+      "distance": "71 km",
+      "durée_heures": "24",
+      "niveau_difficulte": "5",
+      "img": "./src/images/photos states/yosemite-yosemite-falls-trail_1.webp"
+    },
+    {
+      "nom": "everest",
+      "continent": "Asie",
+      "pays": "Népal",
+      "distance": "70 km",
+      "durée_heures": "48",
+      "niveau_difficulte": 5,
+      "img": ".src/images/at-30-degrees-of-extreme.jpg"
+    },
+    {
+      "nom": "extreme",
+      "continent": "Asie",
+      "pays": "Népal",
+      "distance": "128 km",
+      "durée_heures": "72",
+      "niveau_difficulte": 5,
+      "img": "./src/images/everest-base-camp-trek.jpg"
+    },
+    {
+      "nom": "songtow",
+      "continent": "Asie",
+      "pays": "Chine",
+      "distance": "21,196 km",
+      "durée_heures": "1200",
+      "niveau_difficulte": "4",
+      "img": "./src/images/songtow-trail.jpg"
+    },
+    {
+      "nom": "Fenghuangling Nature Park",
+      "continent": "Asie",
+      "pays": "Tanzanie",
+      "distance": "64 km",
+      "durée_heures": "48",
+      "niveau_difficulte": "5",
+      "img": "./src/images/photo0jpg.jpg"
+    },
+    {
+      "nom": "Tang Lang Hill Country Park",
+      "continent": "Asie",
+      "pays": "Kenya",
+      "distance": "50 km",
+      "durée_heures": "36",
+      "niveau_difficulte": "4",
+      "img": "./src/images/caption.jpg"
+    },
+    {
+      "nom": "mare aux cochons",
+      "continent": "Afrique",
+      "pays": "Afrique du Sud",
+      "distance": "75 km",
+      "durée_heures": "24",
+      "niveau_difficulte": "3",
+      "img": "./src/images/mare-aux-cochon-trail.jpg"
+    },
+    {
+      "nom": "point-de-vue-sur-le-bas",
+      "continent": "Afrique",
+      "pays": "Afrique du Sud",
+      "distance": "75 km",
+      "durée_heures": "24",
+      "niveau_difficulte": "3",
+      "img": "./src/images/point-de-vue-sur-le-bas.jpg"
+    },
+    {
+      "nom": "river-crossing-pondo",
+      "continent": "Afrique",
+      "pays": "Afrique du Sud",
+      "distance": "75 km",
+      "durée_heures": "24",
+      "niveau_difficulte": "3",
+      "img": "./src/images/river-crossing-pondo.jpg"
+    },
+    {
+      "nom": "reception-des-randonneurs",
+      "continent": "Afrique",
+      "pays": "Afrique du Sud",
+      "distance": "75 km",
+      "durée_heures": "24",
+      "niveau_difficulte": "3",
+      "img": "./src/images/reception-des-randonneurs.jpg"
+    },
+    {
+      "nom": "maore",
+      "continent": "Afrique",
+      "pays": "Afrique du Sud",
+      "distance": "75 km",
+      "durée_heures": "24",
+      "niveau_difficulte": "3",
+      "img": ".src/images/maore-rando.jpg"
+    },
+    {
+      "nom": "mont-olympe",
+      "continent": "Europe",
+      "pays": "Suisse",
+      "distance": "100 km",
+      "durée_heures": "60",
+      "niveau_difficulte": "4",
+      "img": "./src/images/mont-olympe.jpg.webp"
+    },
+    {
+      "nom": "cinque-terre",
+      "continent": "Europe",
+      "pays": "Italie",
+      "distance": "12 km",
+      "durée_heures": "6",
+      "niveau_difficulte": "2",
+      "img": "./src/images/cinque-terre.jpeg.webp(index)"
+    },
+    {
+      "nom": "ukraine",
+      "continent": "Europe",
+      "pays": "Russie",
+      "distance": "22 km",
+      "durée_heures": "2",
+      "niveau_difficulte": "4",
+      "img": "./src/images/ukraine.jpg.webp(index)"
+    },
+    {
+      "nom": "cote-granit",
+      "continent": "Europe",
+      "pays": "Italie",
+      "distance": "12 km",
+      "durée_heures": "6",
+      "niveau_difficulte": "2",
+      "img": "./src/images/cote-granit.jpg.webp"
+    },
+    {
+      "nom": "hiidenportii",
+      "continent": "Europe",
+      "pays": "Italie",
+      "distance": "12 km",
+      "durée_heures": "6",
+      "niveau_difficulte": "2",
+      "img": "./src/images/hiidenportii.jpg.webp"
+    }
+  ]
+}
