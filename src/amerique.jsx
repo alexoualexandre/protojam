@@ -7,7 +7,7 @@ function Amerique() {
   const { bdd } = MyContext();
   const filterAmerique = bdd.filter((elem) => elem.continent === "Amérique");
 
-  console.log(filterAmerique);
+  
   return (
     <>
       {filterAmerique.map((elem) => (
