@@ -8,6 +8,7 @@ function Header() {
   return (
     <>
       <header className="header">
+        <Link to="/"><button type="button" className="bouton-home"><img src="./src/image/icons8-accueil-32.png" /></button></Link>
         <button className="icon-menu" onClick={() => setOpen(!open)}>
           &#9776;
         </button>
