@@ -220,6 +220,23 @@ footer ul li {
   display: none;
 }
 
+.cardcomplet {
+  width: 60%;
+  padding: 2rem;
+  background-color: var(--bouton-destination);
+  border-radius: 25px;
+  margin: 1rem;
+  left: 5%;
+  position: relative;
+}
+
+.imgCardComplet {
+  width: 100%;
+  border-radius: 50px;
+  position: relative;
+  left: 0%;
+}
+
 /* fin de l'ajout du footer */
 
 @media screen and (min-width: 768px) {
@@ -396,4 +413,28 @@ footer ul li {
     transform: scale(1.2);
     cursor: pointer;
   }
+
+  
+  
+  
+  
+  
+  
+  .cardcomplet {
+    width: 60%;
+    padding: 2rem;
+    background-color: var(--bouton-destination);
+    border-radius: 25px;
+    margin: 1rem;
+    left: 20%;
+    position: relative;
+  }
+
+  .imgCardComplet {
+    width: 70%;
+    border-radius: 50px;
+    position: relative;
+    left: 15%;
+  }
+
 }

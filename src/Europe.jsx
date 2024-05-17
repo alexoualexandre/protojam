@@ -18,6 +18,7 @@ export default function Europe() {
             niveau_difficulte={tata.niveau_difficulte}
             nom={tata.nom}
             img={tata.img}
+            index={tata.id}
           />
         ))}
       </div>

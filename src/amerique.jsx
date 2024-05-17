@@ -20,6 +20,7 @@ function Amerique() {
           niveau_difficulte={elem.niveau_difficulte}
           nom={elem.nom}
           img={elem.img}
+          index={elem.id}
         />
       ))}
       </div>
