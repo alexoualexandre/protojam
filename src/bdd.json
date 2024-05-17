@@ -1,5 +1,4 @@
 [
-    
   {
     "nom": "Mont-Rainier",
     "continent": "Amérique",
@@ -180,6 +179,5 @@
     "niveau_difficulte": 3,
     "img":"Preikestolen.png"
   }
-
 
 ]
