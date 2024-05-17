@@ -125,7 +125,7 @@
         "durée_heures":120,
         "niveau_difficulte": 2,
         "img":"Tassili-N'Ajjer.png"
-      }
+      },
       {
         "nom": "Mapanja ",
         "continent": "Afrique",
@@ -134,7 +134,7 @@
         "durée_heures":8 ,
         "niveau_difficulte": 4,
         "img":"Mapanja.png"
-      }
+      },
       {
         "nom": "Alpes suisses",
         "continent": "Europe",

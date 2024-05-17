@@ -7,9 +7,9 @@ function Amerique() {
   const { bdd } = MyContext();
   const filterAmerique = bdd.filter((elem) => elem.continent === "Amérique");
 
-  console.log(filterAmerique);
   return (
     <>
+    <div className="cont-card">
       {filterAmerique.map((elem) => (
         <Card
           continent={elem.continent}
@@ -21,6 +21,7 @@ function Amerique() {
           img={elem.img}
         />
       ))}
+      </div>
     </>
   );
 }
