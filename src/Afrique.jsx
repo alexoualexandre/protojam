@@ -1,10 +1,9 @@
-import React from 'react'
 import { MyContext } from './context'
 import Card from './Card';
 
 export default function Afrique() {
-    const {bdd}= MyContext();
-    const filtreAfrique= bdd.filter((titi)=> titi.continent === 'Afrique')
+    const {bdd} = MyContext();
+    const filtreAfrique= bdd.filter((titi) => titi.continent === 'Afrique');
     console.log(filtreAfrique);
   return (
     <>
