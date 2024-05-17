@@ -13,6 +13,9 @@ function Menuburger() {
             &#9746;
           </button>
           <ul>
+          <Link to="/" style={{ textDecoration: "none" }} onClick={()=>setOpen(!open)}>
+              <li>Accueil</li>
+            </Link>
             <Link to="/amerique" style={{ textDecoration: "none" }} onClick={()=>setOpen(!open)}>
               <li>Amérique</li>
             </Link>
