@@ -6,11 +6,14 @@
     padding: 1rem;
     justify-content: center;
     align-items: center;
+    margin-top: 3em;
 }
 .blocDescription{
     background-color:var(--section-bloc-bachground);
     padding: 1rem;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .titleDes2{
     padding-bottom: 3rem;
@@ -24,6 +27,7 @@ cursor: pointer;
 .colored-word{
     color:var(--randox-color);
 }
+
 
 @media screen and (min-width:768px) {
     .containerDescription{
@@ -39,17 +43,25 @@ cursor: pointer;
         border-radius: 25px;
         width: 90%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
         
     }
     .pdesc2{
         width: 40%;
+        font-size: 1.2em;
 
     }
+    .texteImg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
     .titleDes2{
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
     }
     .img-des2{
     width: 40%;
@@ -60,5 +72,5 @@ cursor: pointer;
     .colored-word{
         color:var(--randox-color);
     }
-    
+
 } 

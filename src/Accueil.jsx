@@ -6,7 +6,7 @@ function Accueil() {
           C&apos;est qui <span className="spancki">Randox ..!?</span>
         </h2>
         <p style={{ fontFamily: "arial" }}>
-          Depuis sa création en 1998, Randox s&apos; est imposé comme une
+          Depuis sa création en 1998, Randox s&apos;est imposé comme une
           référence incontournable pour les passionnés de randonnée. Avec une
           interface conviviale et des fonctionnalités innovantes, ce site offre
           aux randonneurs une expérience incomparable. De la planification

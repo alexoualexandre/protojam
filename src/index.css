@@ -1,31 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
-#root{
-    --randox-color:#ff8434 ;
-    --section-background:#D9D9D9;
-    --section-bloc-bachground:#EFEDED;
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+#root {
+  --randox-color: #ff8434;
+  --section-background: #d9d9d9;
+  --section-bloc-bachground: #efeded;
+  --bouton-destination: #424340;
+  --footer: #5e5d5d;
 }
 .nanum-brush-script {
-    font-family: "Nanum Brush Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Nanum Brush Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #D9D9D9;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  background-color: #d9d9d9;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", Impact,
+  Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .header {
-    width: 100%;
-    height: 10em;
-    background-color: grey;
-    position: relative;
-    background-image: url('./src/image/header.jfif');
-    background-size: 100%;
+  width: 100%;
+  height: 10em;
+  background-color: grey;
+  position: relative;
+  background-image: url("./src/image/header.jfif");
+  background-size: 100%;
+  border-top: 0.5em solid grey;
+  border-bottom: 0.5em solid grey;
+
 }
 
 /* .img-header {
@@ -34,95 +40,360 @@ body {
 } */
 
 .icon-menu {
-    position: absolute;
-    top: 0;
-    color: var(--randox-color);
-    font-size: 2.5em;
-    text-shadow: 3px 3px 3px black;
+  position: absolute;
+  top: 0;
+  color: var(--randox-color);
+  font-size: 2.5em;
+  text-shadow: 3px 3px 3px black;
+  background-color: transparent;
+  border: none;
 }
 
 .marque {
-    position: absolute;
-    top: 0;
-    right: 0.5em;
-    color: var(--randox-color);
-    text-shadow: 3px 3px 3px black;
-    font-family: "Nanum Brush Script", cursive;
-    font-size: 3em;
+  position: absolute;
+  top: 0;
+  right: 0.5em;
+  color: var(--randox-color);
+  text-shadow: 3px 3px 3px black;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 3em;
 }
 .description-accueil {
-    position: relative;
-    left: 8%;
-    top: 1em;
-    width: 80%;
-    padding: 0.5em;
-    background-color: #EFEDED;
-    box-shadow: 5px 5px 25px grey;
-    border-radius: 25px;
+  position: relative;
+  left: 8%;
+  top: 1em;
+  width: 80%;
+  padding: 0.5em;
+  background-color: #efeded;
+  box-shadow: 5px 5px 25px grey;
+  border-radius: 25px;
 }
 
 .cki {
-    font-family: arial;
+  font-family: arial;
 }
 
 .spancki {
-    color: var(--randox-color);
+  color: var(--randox-color);
 }
 
 .div-video {
-    width: 100%;
-    position: relative;
-    top: 2em;
+  width: 100%;
+  position: relative;
+  top: 2em;
 }
 
 .video {
-    width: 100%;
+  width: 100%;
 }
 
-@media screen and (min-width:768px){
-    .header {
-        width: 100%;
-        height: 10em;
-        background-color: grey;
-        position: relative;
-        background-image: url('./src/image/header - Copie.jfif');
-        background-size: 100%;
-    }
+/**HEADER**/
 
-    .icon-menu {
-        display: none;
-    }
+.destination {
+  display: none;
+}
+.iconeDisplay {
+  display: none;
+}
+/**HEADER FIN**/
 
-    .description-accueil {
-        position: relative;
-        left: 9%;
-        top: 1em;
-        width: 80%;
-        padding: 0.5em;
-        background-color: #EFEDED;
-        font-size: 1.5em;
-        border-radius: 25px;
-    }
+.menuburger {
+  width: 60%;
+  height: 25em;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  opacity: 0.7;
+  animation-name: open;
+  animation-duration: 1s;
+}
 
-    .marque {
-        position: absolute;
-        top: 0;
-        left: 0.5em;
-        color: var(--randox-color);
-        text-shadow: 3px 3px 3px black;
-        font-family: "Nanum Brush Script", cursive;
-        font-size: 6em;
-    }
+@keyframes open {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
 
-    .div-video {
-        width: 80%;
-        position: relative;
-        left: 10%;
-        top: 2.5em;
-    }
+.menuburger ul {
+  white-space: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menuburger li {
+  color: white;
+  padding: 2em;
+  text-decoration: none;
+}
+
+.fermeture {
+  color: white;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  right: 0;
+  top: 0;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+/* alexandre a ajouter le footer */
+
+footer {
+  width: 100%;
+  position: relative;
+
+  background-color: var(--footer);
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+footer ul li {
+  color: white;
+  font-family: arial;
+}
+
+#logo-footer {
+  position: relative;
+  text-align: center;
+  margin-left: 1em;
+  color: var(--randox-color);
+  text-shadow: 3px 3px 3px black;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 3em;
+}
+
+.reseau {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.card {
+  width: 70%;
+  padding: 2rem;
+  background-color: var(--bouton-destination);
+  border-radius: 25px;
+  margin: 1rem;
+}
+.villeWord {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.4rem;
+  color: var(--randox-color);
+}
+.imgCard {
+  width: 100%;
+  border-radius: 50px;
+}
+.cardDesc {
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.cont-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bouton-home {
+  display: none;
+}
+
+/* fin de l'ajout du footer */
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 100%;
+
+    background-color: grey;
+    position: relative;
+    background-image: url("./src/image/header - Copie.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 1rem;
+    height: 10em;
+    background-color: grey;
+    position: relative;
+    background-image: url("./src/image/header - Copie.jfif");
+    background-size: 100%;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+
+  .description-accueil {
+    position: relative;
+    left: 5%;
+    top: 1em;
+    width: 90%;
+    padding: 1em;
+    background-color: #efeded;
+    font-size: 1.2em;
+    border-radius: 25px;
+  }
+
+  .marque {
+    position: absolute;
+    top: 0;
+    left: 0.5em;
+    color: var(--randox-color);
+    text-shadow: 3px 3px 3px black;
+    font-family: "Nanum Brush Script", cursive;
+    font-size: 6em;
+  }
+
+  .div-video {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 2.5em;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  /***** HEADER ********/
+  .destination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .btnDest {
+    background-color: var(--randox-color);
+    cursor: pointer;
+    border: none;
+    border-radius:25px;
+    width: 8%;
+    color: white;
+    font-weight: bolder;
+    padding: 0.5rem;
+  }
+  .btn {
+    width: 100%;
+    background-color: var(--randox-color);
+    border: none;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .iconeDisplay:hover {
+    display: block;
+  }
+  .btnDest:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+  }
+  .iconeDisplay {
+    display: none;
+  }
+  /******FIN HEADER*****/
+
+  /**CARD**/
+  .card {
+    width: 30%;
+    padding: 2rem;
+    background-color: var(--bouton-destination);
+    border-radius: 25px;
+    margin: 1rem;
+  }
+  .villeWord {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.4rem;
+    color: var(--randox-color);
+  }
+  .imgCard {
+    width: 100%;
+    border-radius: 50px;
+  }
+  .cardDesc {
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  /**CARD FIN **/
+
+  /******FIN HEADER*****/
+
+  /* footer ajouter */
+
+  #logo-footer {
+    margin-left: 0em;
+  }
+
+  .cont-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /**** A PROPOS****/
+  
+  .bloc{
+    border: none;
+    border-radius: 25px;
+    margin: 2rem;
+      padding: 2rem;
+      width: 40%;
+      color: black;
+      font-weight: bolder;
+      background-color: white;
+  }
+  .apropos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../public/images/Backgrounde/pexels-toulouse-3297271.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
     
-    .video {
-        width: 100%;
-    }
-} 
+  }
+  .bouton-home {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background-color: var(--randox-color);
+    border-radius: 50%;
+    display: block;
+  }
 
+  .bouton-home:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}
